@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+   background-color: #008cff;
+    height: 10vh;
+}
+
+.right{
+    float: right;
+    margin-top: 15px;
+}
+
+.ledt{
+    float: left;
+    margin-top: 15px;
+}
+nav ul li{
+display: inline-block;
+margin:0 15px ;
+}
+
+nav a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+nav a:hover{
+
+cursor: pointer;
+color: tomato;
+}
+
+.animation{
+animation-name: anime ;
+animation-duration: 10s;
+animation-delay:0s ;
+animation-iteration-count: infinite;
+height: 50vh;
+}
+@keyframes anime{
+
+0%{
+background-image: url(images/slid1.jpg);
+background-repeat:no-repeat ;
+background-size: cover;
+}
+
+25%{
+    background-image: url(images/slid2.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    }
+    
+    50%{
+        background-image: url(images/slid3.jpg);
+        background-repeat:no-repeat ;
+        background-size: cover;
+        }
+        
+        75%{
+            background-image: url(images/slid4.jpg);
+            background-repeat:no-repeat ;
+            background-size: cover;
+            }
+            
+
+            100%{
+                background-image: url(images/slid5.jpg);
+                background-repeat:no-repeat ;
+                background-size: cover;
+                }
+}
+.clr{
+    clear: both;
+}
+
+header{
+    height: 8vh;
+    direction: rtl;
+    background-color: rgba(176, 167, 167, 0.821);
+}
+
+.left-h{
+float: left;
+margin: 10px 0 0 20px;
+}
+.right-h{
+float: right;
+margin: 10px 20px 0 0;
+}
+header ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+header a{
+    color: #008cff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+header button,input{
+    padding: 7px;
+}
+
+header i{
+    color: #008cff;
+    font-size: 20px;
+}
+.offers{
+    font-size: 12px ;
+   color: #008cff;
+text-align: center;
+margin: 20px 0;
+}
+.off{
+    float: left;
+    width: 25%;
+}
+.offers img{
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.deals{
+direction: rtl;
+color: #008cff;
+background-color: lightgray;
+height: 30vh;
+}
+.deal{
+float: left;
+margin: 50px;
+}
+
+.deal img{
+width:120px ;
+height:200px ;
+border-radius: 25px;
+}
+
+.deal img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.deal h2{
+    margin: 10px 20px 0 0;
+}
+.login{
+    text-align: center;
+}
+
+.login button{
+    font-size:15px;
+    border: none;
+color: black;
+background-color: #008cff;
+padding: 15px;
+margin:15px ;
+border-radius: 15px;
+
+}
+
+footer{
+background-color: rgb(56, 53, 53);
+margin-top: 30px;
+direction: rtl;
+}
+
+.float{
+    float: right;
+    margin-right: 150px;
+}
+
+.floatr{
+margin-left: 40px;
+display: inline-block;
+float: left;
+}
+
+footer a{
+  cursor: pointer;
+    text-decoration: none;
+ padding-bottom: 5px;
+ color:rgb(255, 255, 255);
+}
+.foloo{
+    color: aqua;
+padding-top: 10px;
+}
